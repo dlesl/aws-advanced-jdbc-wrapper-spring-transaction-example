@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: software.amazon.jdbc.Driver
+    hikari:
+      data-source-properties:
+        wrapperPlugins: dev
+        wrapperDialect: pg
